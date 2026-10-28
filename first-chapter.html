@@ -7,28 +7,40 @@
 </head>
 <body style="margin: 0; min-height: 100vh; background-image: url('Essential-Books.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed; font-family: serif; display: flex; justify-content: center; align-items: center; padding: 20px; box-sizing: border-box;">
 
-  <main style="background: rgba(18, 18, 18, 0.85); backdrop-filter: blur(8px); color: #f0f0f0; max-width: 580px; width: 100%; padding: 36px 28px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); line-height: 1.8; box-sizing: border-box;">
+  <main style="background: rgba(18, 18, 18, 0.88); backdrop-filter: blur(8px); color: #f0f0f0; max-width: 760px; width: 100%; padding: 36px 30px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); line-height: 1.8; box-sizing: border-box;">
     
-    <!-- Title & Author -->
-    <h1 style="margin-top: 0; font-weight: normal; letter-spacing: 1px; font-size: 1.6rem;">Shatter Me</h1>
-    <h3 style="font-weight: normal; color: #a09e97; margin-top: -8px; font-style: italic; font-size: 1rem;">by Tahereh Mafi</h3>
+    <!-- Title & Author Header -->
+    <h1 style="margin-top: 0; font-weight: normal; letter-spacing: 1px; font-size: 1.7rem;">Shatter Me</h1>
+    <h3 style="font-weight: normal; color: #a09e97; margin-top: -8px; font-style: italic; font-size: 1rem; margin-bottom: 24px;">by Tahereh Mafi</h3>
 
-    <!-- First Passage -->
-    <blockquote style="margin: 24px 0; padding-left: 16px; border-left: 2px solid #64b5f6; font-style: italic; color: #dedede;">
-      "I've been locked up for 264 days. I have nothing but a small notebook and a broken pen and the numbers in my head to keep me company. 1 window. 4 walls. 144 square feet of space. 26 letters in an alphabet I haven't spoken in 264 days of isolation. 6,336 hours since I've touched another human being."
-    </blockquote>
+    <!-- Side-by-Side Flex Layout Container -->
+    <div style="display: flex; gap: 28px; align-items: flex-start; flex-wrap: wrap;">
+      
+      <!-- Left Column: Your Uploaded Book Cover -->
+      <div style="flex: 0 0 auto; margin: 0 auto;">
+        <img src="Shatter_Me.webp" alt="Shatter Me Cover" style="width: 190px; border-radius: 8px; box-shadow: 0 10px 25px rgba(0,0,0,0.7); display: block;">
+      </div>
 
-    <p>
-      Counting every single hour. A touch that can kill, a world falling apart, and an opening sentence that refuses to let you stop turning the page.
-    </p>
+      <!-- Right Column: Passage & Context -->
+      <div style="flex: 1 1 320px; min-width: 260px;">
+        <blockquote style="margin: 0 0 16px 0; padding-left: 14px; border-left: 3px solid #64b5f6; font-style: italic; color: #dedede;">
+          "I've been locked up for 264 days. I have nothing but a small notebook and a broken pen and the numbers in my head to keep me company. 1 window. 4 walls. 144 square feet of space. 26 letters in an alphabet I haven't spoken in 264 days of isolation. 6,336 hours since I've touched another human being."
+        </blockquote>
 
-    <!-- Buy Link -->
-    <p style="margin-top: 24px;">
-      🛒 <a href="https://bookshop.org/p/books/shatter-me-tahereh-mafi/7798369" target="_blank" rel="noopener noreferrer" style="color: #64b5f6; text-decoration: underline;">Pick up a copy of Shatter Me on Bookshop.org</a>
-    </p>
+        <p style="margin: 0 0 16px 0; font-size: 0.95rem; color: #d0d0d0;">
+          Counting every single hour. A touch that can kill, a world falling apart, and an opening sentence that refuses to let you stop turning the page.
+        </p>
 
-    <!-- Return Link -->
-    <p style="margin-top: 30px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 14px;">
+        <!-- Purchase Link -->
+        <p style="margin: 0;">
+          🛒 <a href="https://bookshop.org/p/books/shatter-me-tahereh-mafi/7798369" target="_blank" rel="noopener noreferrer" style="color: #64b5f6; text-decoration: underline;">Pick up a copy on Bookshop.org</a>
+        </p>
+      </div>
+
+    </div>
+
+    <!-- Return to start -->
+    <p style="margin-top: 32px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 14px;">
       <a href="index.html" style="color: #888; text-decoration: none; font-size: 0.85rem;">↺ Return to the start</a>
     </p>
 
